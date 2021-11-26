@@ -11,10 +11,14 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
+  <modules>
+    <module>auth</module>
+  </modules>
+
   <groupId>ru.job4j</groupId>
   <artifactId>job4j_rest</artifactId>
   <version>1</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>job4j_rest Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
@@ -38,6 +42,11 @@
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>1.2.17</version>
+    </dependency>
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.2.12</version>
     </dependency>
 
   </dependencies>
